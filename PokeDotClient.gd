@@ -110,7 +110,8 @@ var query: int = 0
 
 func _ready() -> void:
 	# Default endpoint & query method
-	get_pokemon_pagination("pokemon", 20, 0)
+	#get_pokemon_pagination("pokemon", 20, 0)
+	pass
 
 
 ## Main client that starts [param HTTPRequest] for any data. Returns 1 if OK
